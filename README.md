@@ -22,6 +22,13 @@ This project is a news aggregation tool designed for developers, leveraging Pyth
 !pip install openai
 ```
 
+### Settingup localtunneling
+To make you streamlit app public while running on google colab notebook you need to have authorix=zation token from ngrok. 
+To get the token follow below steps:
+1. Create account on https://dashboard.ngrok.com/
+2. Go to Tunnel --> Auththokes ![](https://github.com/shubham031194/OpenAI_News_Agent/blob/main/resources/Screenshot%202024-05-02%20124406.png)
+3. Genrate your token and use it.
+
 ### Project Execution flow
 The tool begins by prompting users to enter a keyword of interest. Using Google Search News XML fetch, it searches the web for articles related to the keyword. The tool then extracts key information such as the source name, publishing date, and website link for each article.
 
